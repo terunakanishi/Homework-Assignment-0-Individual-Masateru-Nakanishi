@@ -74,7 +74,7 @@ def what_beats(choice: int) -> int:
     >>> what_beats(2)
     0
     """
-    return choice + 1  # (choice + 1) % 3
+    return (choice + 1) % 3
 
 
 def beats(choice_1: int, choice_2: int) -> bool:
@@ -95,7 +95,7 @@ def beats(choice_1: int, choice_2: int) -> bool:
     >>> beats(0, 2)
     True
     """
-    return choice_1 > choice_2  # (choice_1 - choice_2) % 3 == 1
+    return (choice_1 - choice_2) % 3 == 1
     # equiv to choice_1 == what_beats(choice_2)
 
 

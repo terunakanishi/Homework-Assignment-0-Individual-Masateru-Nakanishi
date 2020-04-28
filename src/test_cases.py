@@ -28,4 +28,4 @@ def test_what_beats_2() -> None:
 
 def test_beats_0_2() -> None:
     """Test rps.beats(0, 2)."""
-    assert rps.what_beats(0, 2)
+    assert rps.beats(0, 2)
