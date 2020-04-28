@@ -1,0 +1,18 @@
+Testing started at 3:02 AM ...
+C:\Users\moses\Anaconda3\python.exe "C:\Program Files\JetBrains\PyCharm 2020.1\plugins\python\helpers\pycharm\_jb_pytest_runner.py" --path C:/Users/moses/PycharmProjects/2is50-2019-2020-homework-assignment-0-terunakanishi/src/test_cases.py
+Launching pytest with arguments C:/Users/moses/PycharmProjects/2is50-2019-2020-homework-assignment-0-terunakanishi/src/test_cases.py in C:\Users\moses\PycharmProjects\2is50-2019-2020-homework-assignment-0-terunakanishi\src
+
+============================= test session starts =============================
+platform win32 -- Python 3.7.3, pytest-4.3.1, py-1.8.0, pluggy-0.9.0 -- C:\Users\moses\Anaconda3\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\moses\PycharmProjects\2is50-2019-2020-homework-assignment-0-terunakanishi\src, inifile:
+plugins: remotedata-0.3.1, openfiles-0.3.2, doctestplus-0.3.0, arraydiff-0.3
+collecting ... collected 3 items
+
+test_cases.py::test_RPS PASSED                                           [ 33%]
+test_cases.py::test_what_beats_2 PASSED                                  [ 66%]
+test_cases.py::test_beats_0_2 PASSED                                     [100%]
+
+========================== 3 passed in 0.04 seconds ===========================
+
+Process finished with exit code 0
