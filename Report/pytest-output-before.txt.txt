@@ -1,0 +1,57 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.3, pytest-4.3.1, py-1.8.0, pluggy-0.9.0 -- C:\Users\moses\Anaconda3\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\moses\PycharmProjects\2is50-2019-2020-homework-assignment-0-terunakanishi\src, inifile:
+plugins: remotedata-0.3.1, openfiles-0.3.2, doctestplus-0.3.0, arraydiff-0.3
+collecting ... collected 3 items
+
+test_cases.py::test_RPS PASSED                                           [ 33%]
+test_cases.py::test_what_beats_2 FAILED                                  [ 66%]
+test_cases.py:23 (test_what_beats_2)
+3 != 0
+
+Expected :0
+Actual   :3
+<Click to see difference>
+
+def test_what_beats_2() -> None:
+        """Test rps.what_beats(1)."""
+>       assert rps.what_beats(2) == 0
+E       assert 3 == 0
+
+test_cases.py:26: AssertionError
+
+test_cases.py::test_beats_0_2 FAILED                                     [100%]
+test_cases.py:28 (test_beats_0_2)
+def test_beats_0_2() -> None:
+        """Test rps.beats(0, 2)."""
+>       assert rps.what_beats(0, 2)
+E       TypeError: what_beats() takes 1 positional argument but 2 were given
+
+test_cases.py:31: TypeError
+
+
+================================== FAILURES ===================================
+______________________________ test_what_beats_2 ______________________________
+
+    def test_what_beats_2() -> None:
+        """Test rps.what_beats(1)."""
+>       assert rps.what_beats(2) == 0
+E       assert 3 == 0
+
+test_cases.py:26: AssertionError
+_______________________________ test_beats_0_2 ________________________________
+
+    def test_beats_0_2() -> None:
+        """Test rps.beats(0, 2)."""
+>       assert rps.what_beats(0, 2)
+E       TypeError: what_beats() takes 1 positional argument but 2 were given
+
+test_cases.py:31: TypeError
+===================== 2 failed, 1 passed in 0.54 seconds ======================
+
+Process finished with exit code 1
+
+Assertion failed
+
+Assertion failed

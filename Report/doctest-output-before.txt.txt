@@ -1,0 +1,27 @@
+Failure
+<Click to see difference>
+
+**********************************************************************
+File "C:/Users/moses/PycharmProjects/2is50-2019-2020-homework-assignment-0-terunakanishi/src/rps.py", line 95, in rps.beats
+Failed example:
+    beats(0, 2)
+Expected:
+    True
+Got:
+    False
+
+
+
+
+
+Failure
+<Click to see difference>
+
+**********************************************************************
+File "C:/Users/moses/PycharmProjects/2is50-2019-2020-homework-assignment-0-terunakanishi/src/rps.py", line 74, in rps.what_beats
+Failed example:
+    what_beats(2)
+Expected:
+    0
+Got:
+    3
