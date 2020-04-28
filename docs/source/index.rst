@@ -7,9 +7,9 @@ Welcome to 2is50-2019-2020-ha-0's documentation!
 ================================================
 
 * Author: Tom Verhoeff (TU/e)
-* Contributor: <replace by your full name>
-* TU/e ID number: <replace by your TU/e ID number>
-* Date: <replace by date of first modification>
+* Contributor: Masateru Nakanishi
+* TU/e ID number: 1559206
+* Date: 29/04/2020
 
 This software is made available under the terms of the MIT License.
 
